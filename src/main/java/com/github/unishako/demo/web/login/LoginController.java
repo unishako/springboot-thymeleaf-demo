@@ -1,4 +1,4 @@
-package com.github.unishako.demo.api.login;
+package com.github.unishako.demo.web.login;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
@@ -17,6 +17,6 @@ public class LoginController {
 
     @GetMapping("/login")
     public String login() {
-        return "login/login";
+        return "login/menu";
     }
 }

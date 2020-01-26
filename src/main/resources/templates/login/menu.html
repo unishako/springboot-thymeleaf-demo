@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" th:href="@{/webjars/bootstrap/4.4.1/dist/css/bootstrap.min.css}" />
+    <script th:src="@{/webjars/jquery/3.4.1/dist/jquery.min.js}"></script>
+    <script language="JavaScript">
+        $(function() {
+            $('#login').on('click', function () {
+                window.location.href = 'login';
+            });
+        });
+    </script>
+</head>
+<body>
+<div class="alert alert-primary" role="alert">
+    🍣🍣メニューページ🍣🍣
+</div>
+<button id="login" type="button" class="btn btn-primary btn-lg btn-block">ログインボタン</button>
+
+<script th:src="@{/webjars/bootstrap/4.4.1/dist/js/bootstrap.min.js}"></script>
+</body>
+</html>
